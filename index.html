@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INEBLA Job Solutions Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>Raising Jobs</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#vacancies">Vacancies</a>
+      <a href="#job-category">Job Category</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>INEBLA Youth Empowerment Job Solutions</h2>
+    <div class="image-row">
+      <img src="images/239903612_299520125264103_7957838794495666512_n.jpg" alt="Hero Image">
+    </div>
+    <p>We help you find jobs, improve your skills, and connect with employers.</p>
+    <a href="#credentials" class="btn" id="openModalBtn">Enter Your Credentials</a>
+  </section>
+
+  <section id="vacancies" class="vacancies">
+    <h2>Available Jobs</h2>
+    <p>Actively implement your action, focusing on delivering results and meeting your potential.</p>
+    
+    <div class="vacancy-grid">
+      <div class="vacancy">
+        <h3>Software Engineer</h3>
+        <img src="images/Cancer-Care-and-Hematology-Memorial-Hospital-North_OHAM_ID520-1.jpg" alt="Software Engineer">
+        <p><strong>Company:</strong> ROC Company</p>
+        <p><strong>Location:</strong> Nakuru</p>
+        <p><strong>Salary:</strong> 50,000 KES</p>
+      </div>
+
+      <div class="vacancy">
+        <h3>Project Management</h3>
+        <img src="images/CSC-gallery-06-1920x1080.jpg" alt="Project Management">
+        <p><strong>Company:</strong> Dangote</p>
+        <p><strong>Location:</strong> Kisumu</p>
+        <p><strong>Salary:</strong> 100,000 KES</p>
+      </div>
+
+      <div class="vacancy">
+        <h3>Finance</h3>
+        <img src="images/R.jpg" alt="Finance">
+        <p><strong>Company:</strong> Naspers</p>
+        <p><strong>Location:</strong> Naivasha</p>
+        <p><strong>Salary:</strong> 80,000 KES</p>
+      </div>
+
+      <div class="vacancy">
+        <h3>IT Management</h3>
+        <img src="images/OIP (2).webp" alt="IT Management">
+        <p><strong>Company:</strong> Eskom</p>
+        <p><strong>Location:</strong> Bungoma</p>
+        <p><strong>Salary:</strong> 65,000 KES</p>
+      </div>
+
+      <div class="vacancy">
+        <h3>Accounting</h3>
+        <img src="images/Photo-5-Becker.jpg" alt="Accounting">
+        <p><strong>Company:</strong> Sasol</p>
+        <p><strong>Location:</strong> Busia</p>
+        <p><strong>Salary:</strong> 45,000 KES</p>
+      </div>
+
+      <div class="vacancy">
+        <h3>Actuary</h3>
+        <img src="images/OIP (1).webp" alt="Actuary">
+        <p><strong>Company:</strong> Bidcorp</p>
+        <p><strong>Location:</strong> Kericho</p>
+        <p><strong>Salary:</strong> 67,000 KES</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="credentialsModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Enter Your Credentials</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
